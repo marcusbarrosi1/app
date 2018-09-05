@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Marcus Barros - App</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h2>Welcome!!!</h2>
+
+	  <div class="imgcontainer">
+    <img src="img/logo_marcus.png" alt="Avatar" class="avatar">
+  </div>
+
+	<form id="login_form">
+		<div>
+			<label for="username">Username</label>
+			<input type="text" id="username" name="username">
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" >
+		</div>
+		<input type="submit" id="login_button" value="Login">
+		<button type="button" class="cancelbtn">Logout</button>
+	</form>
+
+	<ul id="ideas"></ul>
+
+	<form>
+		<input type="text" id="idea_create" placeholder="Enter your new idea">
+	</form>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<script type="text/javascript" src="javascript/crud.js"></script>
+	<script type="text/javascript" src="javascript/authenticate.js"></script>
+</body>
+</html>
